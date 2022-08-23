@@ -1,0 +1,482 @@
+.pengumuman-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-max-width {
+  padding-top: 0px;
+}
+.pengumuman-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pengumuman-text01 {
+  color: #ffad61;
+}
+.pengumuman-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.pengumuman-text03 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink1 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink2 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink3 {
+  text-decoration: none;
+}
+.pengumuman-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.pengumuman-burger-menu1 {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.pengumuman-pricing {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1144px;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-card {
+  display: flex;
+  position: relative;
+  align-items: left;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.pengumuman-container1 {
+  display: flex;
+  min-width: 150px;
+  align-items: left;
+  flex-direction: column;
+}
+.pengumuman-text06 {
+  font-size: 1.5rem;
+  font-style: normal;
+  align-items: left;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.pengumuman-text07 {
+  margin: 8px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.pengumuman-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-max-width {
+  padding-top: 0px;
+}
+.pengumuman-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pengumuman-text01 {
+  color: #ffad61;
+}
+.pengumuman-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.pengumuman-text03 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink1 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink2 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.pengumuman-navlink3 {
+  text-decoration: none;
+}
+.pengumuman-navlink4 {
+  text-decoration: none;
+  background-color: #5a99e4;
+}
+.pengumuman-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.pengumuman-burger-menu1 {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.pengumuman-pricing {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1144px;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.pengumuman-container1 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-text06 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.pengumuman-text07 {
+  margin: 8px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.pengumuman-text08 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+}
+.pengumuman-text09 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.pengumuman-button {
+  color: #ffffff;
+  transition: 0.3s;
+  flex-shrink: 0;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  background-color: #000000;
+}
+.pengumuman-button:hover {
+  transform: scale(1.02);
+}
+.pengumuman-card1 {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.pengumuman-container2 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-text10 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.pengumuman-text11 {
+  margin: 8px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.pengumuman-text12 {
+  font-size: 1.5rem;
+  align-self: center;
+  font-style: normal;
+  font-weight: 300;
+}
+.pengumuman-text13 {
+  font-style: normal;
+  font-weight: 300;
+}
+.pengumuman-text14 {
+  font-style: normal;
+  font-weight: 300;
+}
+.pengumuman-text15 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.pengumuman-button1 {
+  color: #ffffff;
+  transition: 0.3s;
+  flex-shrink: 0;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  background-color: #000000;
+}
+.pengumuman-button1:hover {
+  transform: scale(1.02);
+}
+.pengumuman-card2 {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.pengumuman-container3 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.pengumuman-text17 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.pengumuman-text18 {
+  margin: 8px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.pengumuman-text19 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+}
+.pengumuman-text20 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.pengumuman-text21 {
+  font-style: normal;
+  font-weight: 400;
+}
+.pengumuman-button2 {
+  color: #ffffff;
+  transition: 0.3s;
+  flex-shrink: 0;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  background-color: #000000;
+}
+.pengumuman-button2:hover {
+  transform: scale(1.02);
+}
+.pengumuman-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1144px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.pengumuman-text25 {
+  color: #ffad61;
+}
+.pengumuman-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pengumuman-link {
+  display: contents;
+}
+.pengumuman-icon4 {
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .pengumuman-text07 {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .pengumuman-text09 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .pengumuman-button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .pengumuman-text11 {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .pengumuman-text15 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .pengumuman-button1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .pengumuman-text18 {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .pengumuman-text20 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .pengumuman-button2 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 767px) {
+  .pengumuman-links {
+    display: none;
+  }
+  .pengumuman-icon {
+    fill: #0c4237;
+  }
+  .pengumuman-icon2 {
+    fill: #0c4237;
+  }
+  .pengumuman-pricing {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .pengumuman-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .pengumuman-text09 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .pengumuman-card1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .pengumuman-text15 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .pengumuman-card2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .pengumuman-text20 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .pengumuman-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .pengumuman-text27 {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .pengumuman-pricing {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .pengumuman-text09 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .pengumuman-text15 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .pengumuman-text20 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .pengumuman-footer {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .pengumuman-text27 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}
+
+

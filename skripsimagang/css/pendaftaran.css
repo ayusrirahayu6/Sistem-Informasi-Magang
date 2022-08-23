@@ -1,0 +1,222 @@
+.daftar-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.daftar-max-width {
+  padding-top: 20px;
+}
+.daftar-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.daftar-text01 {
+  color: #ffad61ff;
+}
+.daftar-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.daftar-text03 {
+  color: #105749ff;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.daftar-navlink {
+  color: #105749ff;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.daftar-navlink1 {
+  color: #105749ff;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.daftar-navlink2 {
+  color: #105749ff;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.daftar-navlink3 {
+  text-decoration: none;
+}
+.daftar-navlink4 {
+  text-decoration: none;
+  background-color: #5a99e4;
+}
+.daftar-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.daftar-banner {
+  width: 100%;
+  height: 786px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 170px;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("../public/playground_assets/cover-1500w.png");
+  background-position: center;
+}
+.daftar-text04 {
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+}
+.daftar-text05 {
+  text-transform: uppercase;
+}
+.daftar-text06 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.daftar-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  border-color: #0c4237ff;
+  border-width: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.daftar-inputnama {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.daftar-textinput {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+  border-radius: 0px;
+}
+.daftar-textinput1 {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.daftar-textinput2 {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.daftar-textinput3 {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.daftar-textinput4 {
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.daftar-navlink5 {
+  color: #ffffff;
+  height: 100%;
+  font-size: 0.75rem;
+  align-self: center;
+  transition: 0.3s;
+  margin-left: 16px;
+  border-color:#5a99e4ff;
+  text-decoration: none;
+  background-color: #000000;
+}
+.daftar-navlink5:hover {
+  color: #000000;
+  background-color: transparent;
+}
+.daftar-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1144px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.daftar-text08 {
+  color: #ffad61ff;
+}
+.daftar-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.daftar-link {
+  display: contents;
+}
+.daftar-icon2 {
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .daftar-links {
+    display: none;
+  }
+  .daftar-icon {
+    fill: #0c4237ff;
+  }
+  .daftar-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .daftar-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .daftar-text10 {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .daftar-banner {
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 48px;
+  }
+  .daftar-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .daftar-navlink5 {
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+  .daftar-footer {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .daftar-text10 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}

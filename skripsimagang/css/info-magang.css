@@ -1,0 +1,445 @@
+.info-magang-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.info-magang-max-width {
+  padding-top: 0px;
+}
+.info-magang-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info-magang-text01 {
+  color: #ffad61;
+}
+.info-magang-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.info-magang-text03 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.info-magang-navlink {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.info-magang-navlink1 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.info-magang-navlink2 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.info-magang-navlink3 {
+  text-decoration: none;
+}
+.info-magang-navlink4 {
+  text-decoration: none;
+  background-color: #5a99e4;
+}
+.info-magang-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.info-magang-pricing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.info-magang-container1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1144px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-magang-container2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 32px;
+  flex-direction: column;
+}
+.info-magang-text05 {
+  color: #595959;
+  margin-top: 32px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.info-magang-container3 {
+  flex: 2;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.info-magang-container4 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 300px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 32px;
+  margin-right: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+.info-magang-container4:hover {
+  transform: scale(1.02);
+}
+.info-magang-text08 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.info-magang-text09 {
+  margin: 32px;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.info-magang-text10 {
+  margin-bottom: 16px;
+}
+.info-magang-text11 {
+  font-weight: 700;
+}
+.info-magang-text13 {
+  margin-bottom: 16px;
+}
+.info-magang-text14 {
+  font-weight: 700;
+}
+.info-magang-text16 {
+  margin-bottom: 16px;
+}
+.info-magang-text17 {
+  font-weight: 700;
+}
+.info-magang-navlink5 {
+  color: #ffffff;
+  margin-top: auto;
+  padding-top: 16px;
+  border-width: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  text-decoration: none;
+  background-color: #000000;
+}
+.info-magang-container5 {
+  flex: 1;
+  color: #ffffff;
+  height: 300px;
+  display: flex;
+  max-width: 300px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  background-color: #000000;
+}
+.info-magang-container5:hover {
+  transform: scale(1.02);
+}
+.info-magang-text19 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.info-magang-text20 {
+  margin: 32px;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.info-magang-text21 {
+  margin-bottom: 16px;
+}
+.info-magang-text22 {
+  font-weight: 700;
+}
+.info-magang-text24 {
+  margin-bottom: 16px;
+}
+.info-magang-text25 {
+  font-weight: 700;
+}
+.info-magang-navlink6 {
+  margin-top: auto;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+.info-magang-deskripsibagian {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1144px;
+  align-items: center;
+  flex-direction: column;
+}
+.info-magang-card {
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.info-magang-container6 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.info-magang-text27 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.info-magang-text28 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.info-magang-card1 {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.info-magang-container7 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.info-magang-text29 {
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.info-magang-text30 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.info-magang-text31 {
+  font-style: normal;
+  font-weight: 400;
+}
+.info-magang-card2 {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: row;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+}
+.info-magang-container8 {
+  display: flex;
+  min-width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.info-magang-text33 {
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.info-magang-text34 {
+  margin-left: 48px;
+  margin-right: 96px;
+}
+.info-magang-text35 {
+  font-style: normal;
+  font-weight: 400;
+}
+.info-magang-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1144px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.info-magang-text39 {
+  color: #ffad61;
+}
+.info-magang-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info-magang-icon2 {
+  width: 16px;
+  height: 16px;
+}
+@media(max-width: 991px) {
+  .info-magang-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .info-magang-container2 {
+    align-items: center;
+  }
+  .info-magang-text05 {
+    text-align: center;
+  }
+  .info-magang-container3 {
+    width: 100%;
+  }
+  .info-magang-text28 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .info-magang-text30 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .info-magang-text34 {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .info-magang-links {
+    display: none;
+  }
+  .info-magang-icon {
+    fill: #0c4237;
+  }
+  .info-magang-container1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .info-magang-container3 {
+    flex-direction: column;
+  }
+  .info-magang-container4 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .info-magang-container5 {
+    width: 100%;
+  }
+  .info-magang-deskripsibagian {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .info-magang-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-magang-text28 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .info-magang-card1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-magang-text30 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .info-magang-card2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-magang-text34 {
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+  }
+  .info-magang-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .info-magang-text41 {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .info-magang-container1 {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .info-magang-deskripsibagian {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .info-magang-text28 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .info-magang-text30 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .info-magang-text34 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .info-magang-footer {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .info-magang-text41 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,188 @@
+.kirim-dokumen-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kirim-dokumen-max-width {
+  padding-top: 20px;
+}
+.kirim-dokumen-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kirim-dokumen-text1 {
+  color: var(--dl-color-scheme-orange100);
+}
+.kirim-dokumen-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.kirim-dokumen-text3 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kirim-dokumen-navlink {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kirim-dokumen-navlink1 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kirim-dokumen-navlink2 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kirim-dokumen-navlink3 {
+  text-decoration: none;
+}
+.kirim-dokumen-navlink4 {
+  text-decoration: none;
+  background-color: #5a99e4;
+}
+.kirim-dokumen-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.kirim-dokumen-banner {
+  width: 100%;
+  height: 786px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 92px;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: 170px;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("public/playground_assets/cover-1500w.png");
+  background-position: center;
+}
+.kirim-dokumen-text4 {
+  color: var(--dl-color-scheme-white);
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+  letter-spacing: 2px;
+}
+.kirim-dokumen-text5 {
+  text-transform: uppercase;
+}
+.kirim-dokumen-text6 {
+  color: var(--dl-color-scheme-white);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.kirim-dokumen-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  border-color: var(--dl-color-scheme-green100);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.kirim-dokumen-textinput {
+  width: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.kirim-dokumen-textinput1 {
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.kirim-dokumen-textinput2 {
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.kirim-dokumen-textinput3 {
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  border-color: #595959;
+}
+.kirim-dokumen-navlink5 {
+  color: var(--dl-color-scheme-white);
+  height: 100%;
+  font-size: 0.75rem;
+  align-self: center;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-scheme-biru);
+  text-decoration: none;
+  background-color: #000000;
+}
+.kirim-dokumen-navlink5:hover {
+  color: #000000;
+  background-color: transparent;
+}
+.kirim-dokumen-social-bar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.kirim-dokumen-text7 {
+  color: #666969;
+  align-self: stretch;
+}
+@media(max-width: 767px) {
+  .kirim-dokumen-links {
+    display: none;
+  }
+  .kirim-dokumen-icon {
+    fill: var(--dl-color-scheme-green100);
+  }
+  .kirim-dokumen-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kirim-dokumen-social-bar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .kirim-dokumen-banner {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .kirim-dokumen-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .kirim-dokumen-navlink5 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .kirim-dokumen-social-bar {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

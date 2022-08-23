@@ -1,0 +1,178 @@
+.feature-card11-feature-card {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  max-width: 1144px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card11-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card11-text {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+.feature-card11-text1 {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+.kontak-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kontak-max-width {
+  padding-top: 0px;
+}
+.kontak-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontak-text01 {
+  color: #ffad61;
+}
+.kontak-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.kontak-text03 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.kontak-navlink {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.kontak-navlink1 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.kontak-navlink2 {
+  color: #105749;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.kontak-navlink3 {
+  text-decoration: none;
+}
+.kontak-navlink4 {
+  text-decoration: none;
+  background-color: #5a99e4;
+}
+.kontak-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.kontak-features {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1144px;
+  flex-direction: column;
+}
+.kontak-text04 {
+  font-size: 3rem;
+  margin-bottom: 48px;
+}
+.kontak-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: grid;
+  grid-gap: 32px;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.kontak-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1144px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.kontak-text07 {
+  color: #ffad61;
+}
+.kontak-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontak-link {
+  display: contents;
+}
+.kontak-icon2 {
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .kontak-text04 {
+    align-self: center;
+  }
+  .kontak-container1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .kontak-links {
+    display: none;
+  }
+  .kontak-icon {
+    fill: #0c4237ff;
+  }
+  .kontak-features {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .kontak-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .kontak-text09 {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .kontak-features {
+    width: 100%;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .kontak-container1 {
+    grid-gap: 8px;
+  }
+  .kontak-footer {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .kontak-text09 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,171 @@
+.feature-card11-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card11-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card11-text {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.feature-card11-text1 {
+  font-size: 20px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.kontak1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kontak1-max-width {
+  padding-top: 0px;
+}
+.kontak1-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontak1-text01 {
+  color: var(--dl-color-scheme-orange100);
+}
+.kontak1-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.kontak1-text03 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kontak1-navlink {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kontak1-navlink1 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kontak1-navlink2 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kontak1-navlink3 {
+  text-decoration: none;
+}
+.kontak1-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.kontak1-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  flex-direction: column;
+}
+.kontak1-text06 {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.kontak1-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.kontak1-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.kontak1-text09 {
+  color: var(--dl-color-scheme-orange100);
+}
+.kontak1-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontak1-link {
+  display: contents;
+}
+.kontak1-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .kontak1-text06 {
+    align-self: center;
+  }
+  .kontak1-container1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .kontak1-links {
+    display: none;
+  }
+  .kontak1-icon {
+    fill: var(--dl-color-scheme-green100);
+  }
+  .kontak1-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kontak1-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kontak1-text11 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .kontak1-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .kontak1-container1 {
+    grid-gap: var(--dl-space-space-halfunit);
+  }
+  .kontak1-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .kontak1-text11 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
